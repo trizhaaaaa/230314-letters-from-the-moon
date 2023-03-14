@@ -15,7 +15,9 @@ namespace jess
         public popup_letter1()
         {
             InitializeComponent();
-
+        }
+        private void popup_letter1_Load(object sender, EventArgs e)
+        {
             this.BackColor = Color.SaddleBrown;
             this.TransparencyKey = Color.SaddleBrown;
 
@@ -29,8 +31,21 @@ namespace jess
             ff1.Parent = letter1Doc;
             ff1.Location = letter1Doc.PointToClient(ff1Loc);
             ff1.BackColor = Color.Transparent;
-            
 
+            var titleLoc = title.PointToScreen(Point.Empty);
+            title.Parent = letter1Doc;
+            title.Location = letter1Doc.PointToClient(titleLoc);
+            title.BackColor = Color.Transparent;
+
+            var bodyLoc = body.PointToScreen(Point.Empty);
+            body.Parent = letter1Doc;
+            body.Location = letter1Doc.PointToClient(bodyLoc);
+            body.BackColor = Color.Transparent;
+
+            var signLoc = sign.PointToScreen(Point.Empty);
+            sign.Parent = letter1Doc;
+            sign.Location = letter1Doc.PointToClient(signLoc);
+            sign.BackColor = Color.Transparent;
         }
 
         private void btnReturn_Click(object sender, EventArgs e)
@@ -40,5 +55,6 @@ namespace jess
             moonMain mm = new moonMain();
             mm.Show();
         }
+
     }
 }

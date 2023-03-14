@@ -15,6 +15,9 @@ namespace jess
         public popup_letter2()
         {
             InitializeComponent();
+        }
+        private void popup_letter2_Load(object sender, EventArgs e)
+        {
 
             this.BackColor = Color.SaddleBrown;
             this.TransparencyKey = Color.SaddleBrown;
@@ -29,6 +32,21 @@ namespace jess
             ff1.Parent = letter2Doc;
             ff1.Location = letter2Doc.PointToClient(ff1Loc);
             ff1.BackColor = Color.Transparent;
+
+            var titleLoc = title.PointToScreen(Point.Empty);
+            title.Parent = letter2Doc;
+            title.Location = letter2Doc.PointToClient(titleLoc);
+            title.BackColor = Color.Transparent;
+
+            var bodyLoc = body.PointToScreen(Point.Empty);
+            body.Parent = letter2Doc;
+            body.Location = letter2Doc.PointToClient(bodyLoc);
+            body.BackColor = Color.Transparent;
+
+            var signLoc = sign.PointToScreen(Point.Empty);
+            sign.Parent = letter2Doc;
+            sign.Location = letter2Doc.PointToClient(signLoc);
+            sign.BackColor = Color.Transparent;
         }
 
         private void btnReturn_Click(object sender, EventArgs e)

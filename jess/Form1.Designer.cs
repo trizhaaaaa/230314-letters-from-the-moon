@@ -37,19 +37,27 @@ namespace jess
             this.moonInfo = new System.Windows.Forms.PictureBox();
             this.moonface = new System.Windows.Forms.PictureBox();
             this.letter2 = new System.Windows.Forms.PictureBox();
+            this.photo2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.photo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.letter1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moonExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moonInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moonface)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.letter2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.photo2)).BeginInit();
             this.SuspendLayout();
+            // 
+            // tt
+            // 
+            this.tt.AutoPopDelay = 5000;
+            this.tt.InitialDelay = 500;
+            this.tt.ReshowDelay = 100;
             // 
             // photo1
             // 
-            this.photo1.Location = new System.Drawing.Point(338, 176);
+            this.photo1.Location = new System.Drawing.Point(329, 176);
             this.photo1.Name = "photo1";
-            this.photo1.Size = new System.Drawing.Size(23, 19);
+            this.photo1.Size = new System.Drawing.Size(43, 19);
             this.photo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.photo1.TabIndex = 3;
             this.photo1.TabStop = false;
@@ -112,11 +120,23 @@ namespace jess
             this.letter2.Click += new System.EventHandler(this.letter2_Click);
             this.letter2.MouseEnter += new System.EventHandler(this.letter2_MouseEnter);
             // 
+            // photo2
+            // 
+            this.photo2.Location = new System.Drawing.Point(347, 594);
+            this.photo2.Name = "photo2";
+            this.photo2.Size = new System.Drawing.Size(24, 21);
+            this.photo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.photo2.TabIndex = 4;
+            this.photo2.TabStop = false;
+            this.photo2.Click += new System.EventHandler(this.photo2_Click);
+            this.photo2.MouseEnter += new System.EventHandler(this.photo2_MouseEnter);
+            // 
             // moonMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 700);
+            this.Controls.Add(this.photo2);
             this.Controls.Add(this.photo1);
             this.Controls.Add(this.letter2);
             this.Controls.Add(this.letter1);
@@ -133,6 +153,7 @@ namespace jess
             ((System.ComponentModel.ISupportInitialize)(this.moonInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moonface)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.letter2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.photo2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -146,6 +167,7 @@ namespace jess
         private System.Windows.Forms.PictureBox letter1;
         private System.Windows.Forms.PictureBox photo1;
         private System.Windows.Forms.PictureBox letter2;
+        private System.Windows.Forms.PictureBox photo2;
     }
 }
 

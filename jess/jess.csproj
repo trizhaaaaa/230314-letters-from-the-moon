@@ -67,6 +67,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="popup-img1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup-img1.Designer.cs">
+      <DependentUpon>popup-img1.cs</DependentUpon>
+    </Compile>
     <Compile Include="popup-letter1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup-img1.resx">
+      <DependentUpon>popup-img1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="popup-letter1.resx">
       <DependentUpon>popup-letter1.cs</DependentUpon>
@@ -331,6 +340,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ff21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\content-white1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

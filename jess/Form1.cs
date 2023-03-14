@@ -40,6 +40,12 @@ namespace jess
             photo1.BackColor = Color.Transparent;
             tt.SetToolTip(this.photo1, "Hello!!!!!!");
 
+            var img2Loc = photo2.PointToScreen(Point.Empty);
+            photo2.Parent = moonface;
+            photo2.Location = moonface.PointToClient(img2Loc);
+            photo2.BackColor = Color.Transparent;
+            tt.SetToolTip(this.photo1, "Hello!!!!!!");
+
         }
 
         private void moonExit_Click(object sender, EventArgs e)
@@ -90,13 +96,24 @@ namespace jess
         //
         private void photo1_Click(object sender, EventArgs e)
         {
-            //show image
+            popup_img1 popup = new popup_img1();
+            popup.Show();
+            this.Hide();
         }
-        //
         private void photo1_MouseEnter(object sender, EventArgs e)
         {
             Cursor picCur = new Cursor(Properties.Resources.camera_2_ico.Handle);
             photo1.Cursor = picCur;
+        }
+
+        private void photo2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void photo2_MouseEnter(object sender, EventArgs e)
+        {
+            Cursor picCur = new Cursor(Properties.Resources.camera_2_ico.Handle);
+            photo2.Cursor = picCur;
         }
     }
 }

@@ -83,6 +83,16 @@ namespace jess.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap content_white {
+            get {
+                object obj = ResourceManager.GetObject("content-white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ff1 {
             get {
                 object obj = ResourceManager.GetObject("ff1", resourceCulture);

@@ -118,92 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="star_tilted_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\star-tilted-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="camera_2_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\camera-2-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="title-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\title-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="title-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\title-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="letter_hearts_2_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\letter-hearts-2-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="content-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\content-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="letter_closed_heart_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\letter-closed heart-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="moon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\moon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="letter_open_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\letter-open-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ff15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ff15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ff16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ff17" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ff12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ff18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ff18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,10 +130,94 @@
   <data name="ff19" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ff19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ff20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ff20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ff2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ff21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ff21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="letter_hearts_2_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letter-hearts-2-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_tilted_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star-tilted-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camera_2_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camera-2-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="letter_open_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letter-open-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\content-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="letter_closed_heart_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letter-closed heart-ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\content-white1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
