@@ -31,13 +31,41 @@ namespace jess
         {
             this.components = new System.ComponentModel.Container();
             this.tt = new System.Windows.Forms.ToolTip(this.components);
+            this.photo1 = new System.Windows.Forms.PictureBox();
+            this.letter1 = new System.Windows.Forms.PictureBox();
             this.moonExit = new System.Windows.Forms.PictureBox();
             this.moonInfo = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.moonface = new System.Windows.Forms.PictureBox();
+            this.letter2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.photo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.letter1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moonExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moonInfo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moonface)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.letter2)).BeginInit();
             this.SuspendLayout();
+            // 
+            // photo1
+            // 
+            this.photo1.Location = new System.Drawing.Point(338, 176);
+            this.photo1.Name = "photo1";
+            this.photo1.Size = new System.Drawing.Size(23, 19);
+            this.photo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.photo1.TabIndex = 3;
+            this.photo1.TabStop = false;
+            this.photo1.Click += new System.EventHandler(this.photo1_Click);
+            this.photo1.MouseEnter += new System.EventHandler(this.photo1_MouseEnter);
+            // 
+            // letter1
+            // 
+            this.letter1.Location = new System.Drawing.Point(179, 372);
+            this.letter1.Name = "letter1";
+            this.letter1.Size = new System.Drawing.Size(32, 25);
+            this.letter1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.letter1.TabIndex = 3;
+            this.letter1.TabStop = false;
+            this.letter1.Click += new System.EventHandler(this.letter1_Click);
+            this.letter1.MouseEnter += new System.EventHandler(this.letter1_MouseEnter);
             // 
             // moonExit
             // 
@@ -49,6 +77,7 @@ namespace jess
             this.moonExit.TabIndex = 2;
             this.moonExit.TabStop = false;
             this.moonExit.Click += new System.EventHandler(this.moonExit_Click);
+            this.moonExit.MouseEnter += new System.EventHandler(this.moonExit_MouseEnter);
             // 
             // moonInfo
             // 
@@ -60,42 +89,63 @@ namespace jess
             this.moonInfo.TabIndex = 1;
             this.moonInfo.TabStop = false;
             this.moonInfo.Click += new System.EventHandler(this.moonInfo_Click);
+            this.moonInfo.MouseEnter += new System.EventHandler(this.moonInfo_MouseEnter);
             // 
-            // pictureBox1
+            // moonface
             // 
-            this.pictureBox1.Image = global::jess.Properties.Resources.moon;
-            this.pictureBox1.Location = new System.Drawing.Point(45, 169);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(500, 500);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.moonface.Image = global::jess.Properties.Resources.moon;
+            this.moonface.Location = new System.Drawing.Point(45, 169);
+            this.moonface.Name = "moonface";
+            this.moonface.Size = new System.Drawing.Size(500, 500);
+            this.moonface.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.moonface.TabIndex = 0;
+            this.moonface.TabStop = false;
+            // 
+            // letter2
+            // 
+            this.letter2.Location = new System.Drawing.Point(380, 372);
+            this.letter2.Name = "letter2";
+            this.letter2.Size = new System.Drawing.Size(32, 25);
+            this.letter2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.letter2.TabIndex = 3;
+            this.letter2.TabStop = false;
+            this.letter2.Click += new System.EventHandler(this.letter2_Click);
+            this.letter2.MouseEnter += new System.EventHandler(this.letter2_MouseEnter);
             // 
             // moonMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(700, 700);
+            this.Controls.Add(this.photo1);
+            this.Controls.Add(this.letter2);
+            this.Controls.Add(this.letter1);
             this.Controls.Add(this.moonExit);
             this.Controls.Add(this.moonInfo);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.moonface);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "moonMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.photo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.letter1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moonExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moonInfo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moonface)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.letter2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox moonface;
         private System.Windows.Forms.PictureBox moonInfo;
         private System.Windows.Forms.PictureBox moonExit;
         private System.Windows.Forms.ToolTip tt;
+        private System.Windows.Forms.PictureBox letter1;
+        private System.Windows.Forms.PictureBox photo1;
+        private System.Windows.Forms.PictureBox letter2;
     }
 }
 

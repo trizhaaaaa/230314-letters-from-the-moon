@@ -61,12 +61,42 @@ namespace jess.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap content_white {
+        internal static System.Drawing.Icon camera_2_ico {
             get {
-                object obj = ResourceManager.GetObject("content-white", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("camera_2_ico", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon letter_closed_heart_ico {
+            get {
+                object obj = ResourceManager.GetObject("letter_closed_heart_ico", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon letter_hearts_2_ico {
+            get {
+                object obj = ResourceManager.GetObject("letter_hearts_2_ico", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon letter_open_ico {
+            get {
+                object obj = ResourceManager.GetObject("letter_open_ico", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -76,16 +106,6 @@ namespace jess.Properties {
         internal static System.Drawing.Bitmap moon {
             get {
                 object obj = ResourceManager.GetObject("moon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pink_tab {
-            get {
-                object obj = ResourceManager.GetObject("pink tab", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -111,6 +131,16 @@ namespace jess.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon star_tilted_ico {
+            get {
+                object obj = ResourceManager.GetObject("star_tilted_ico", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap title_black {
@@ -126,16 +156,6 @@ namespace jess.Properties {
         internal static System.Drawing.Bitmap title_white {
             get {
                 object obj = ResourceManager.GetObject("title-white", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap title_white1 {
-            get {
-                object obj = ResourceManager.GetObject("title-white1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
