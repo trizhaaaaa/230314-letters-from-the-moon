@@ -69,6 +69,7 @@ namespace jess
             // 
             // moonExit
             // 
+            this.moonExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.moonExit.Image = global::jess.Properties.Resources.x;
             this.moonExit.Location = new System.Drawing.Point(495, 113);
             this.moonExit.Name = "moonExit";
@@ -77,10 +78,10 @@ namespace jess
             this.moonExit.TabIndex = 2;
             this.moonExit.TabStop = false;
             this.moonExit.Click += new System.EventHandler(this.moonExit_Click);
-            this.moonExit.MouseEnter += new System.EventHandler(this.moonExit_MouseEnter);
             // 
             // moonInfo
             // 
+            this.moonInfo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.moonInfo.Image = global::jess.Properties.Resources.star;
             this.moonInfo.Location = new System.Drawing.Point(430, 113);
             this.moonInfo.Name = "moonInfo";
@@ -89,7 +90,6 @@ namespace jess
             this.moonInfo.TabIndex = 1;
             this.moonInfo.TabStop = false;
             this.moonInfo.Click += new System.EventHandler(this.moonInfo_Click);
-            this.moonInfo.MouseEnter += new System.EventHandler(this.moonInfo_MouseEnter);
             // 
             // moonface
             // 

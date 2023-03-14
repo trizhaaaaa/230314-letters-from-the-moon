@@ -67,6 +67,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="popup-letter1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup-letter1.Designer.cs">
+      <DependentUpon>popup-letter1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popup-letter2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup-letter2.Designer.cs">
+      <DependentUpon>popup-letter2.cs</DependentUpon>
+    </Compile>
     <Compile Include="popupInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,8 +87,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="round-corner-pb.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup-letter1.resx">
+      <DependentUpon>popup-letter1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup-letter2.resx">
+      <DependentUpon>popup-letter2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="popupInfo.resx">
       <DependentUpon>popupInfo.cs</DependentUpon>
@@ -244,6 +265,72 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\letter-closed heart-ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\content-black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ff21.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

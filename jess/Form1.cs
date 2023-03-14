@@ -26,11 +26,13 @@ namespace jess
             letter1.Parent = moonface;
             letter1.Location = moonface.PointToClient(let1Loc);
             letter1.BackColor = Color.Transparent;
+            tt.SetToolTip(this.letter1, "from eds ♥");
 
             var let2Loc = letter2.PointToScreen(Point.Empty);
             letter2.Parent = moonface;
             letter2.Location = moonface.PointToClient(let2Loc);
             letter2.BackColor = Color.Transparent;
+            tt.SetToolTip(this.letter2, "from trizha ♥");
 
             var img1Loc = photo1.PointToScreen(Point.Empty);
             photo1.Parent = moonface;
@@ -44,23 +46,21 @@ namespace jess
         {
             Environment.Exit(0);
         }
-
-        private void moonExit_MouseEnter(object sender, EventArgs e) => moonExit.Cursor = Cursors.Hand;
-
         private void moonInfo_Click(object sender, EventArgs e)
         {
             popupInfo popup = new popupInfo();
             popup.Show();
             this.Hide();
         }
-
-        private void moonInfo_MouseEnter(object sender, EventArgs e) => moonInfo.Cursor = Cursors.Hand;
+        //-----------------------------------------------------
         //
         //letter 1
         //
         private void letter1_Click(object sender, EventArgs e)
         {
-            //show letter
+            popup_letter1 popup = new popup_letter1();
+            popup.Show();
+            this.Hide();
         }
         //
         private void letter1_MouseEnter(object sender, EventArgs e)
@@ -73,7 +73,9 @@ namespace jess
         //
         private void letter2_Click(object sender, EventArgs e)
         {
-            //show letter
+            popup_letter2 popup = new popup_letter2();
+            popup.Show();
+            this.Hide();
         }
         //
         private void letter2_MouseEnter(object sender, EventArgs e)
